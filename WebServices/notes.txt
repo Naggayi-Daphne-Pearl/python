@@ -1,0 +1,7 @@
+The most common ways to send data over the internet is using the XML and JSON
+
+1. XML 
+    - Tags represent the begin and end of elements. Name anything we want e.g <person><person>
+    -Has self closing tags
+    - Attributes: Keywords/value pairs on the opening tag of XML 
+    -Serialise/De-Serialise: Convert data in one program into a common format that can be stored and/or transmitted between systems
