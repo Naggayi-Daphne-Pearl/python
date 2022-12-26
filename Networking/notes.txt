@@ -1,0 +1,9 @@
+Web Scraping 
+        Web scraping is the process of extracting data from websites. It involves making HTTP requests to a website's server, downloading the HTML of the web page, and parsing that HTML to extract the data you are interested in.
+    Web scraping can be useful for a variety of purposes, such as:
+        -Gathering data for data analysis or machine learning projects
+        -Extracting data from websites that don't have APIs (Application Programming Interfaces)
+        -Monitoring websites for changes or updates
+        -Scraping data from multiple websites to create a unified dataset
+    Web scraping can be done using various tools and libraries, such as Python's urllib library or the requests library. It is important to respect the website's terms of service and to not scrape data in a way that puts excessive strain on the server.
+
