@@ -9,6 +9,15 @@ Booleans
    - Zero(0) is equal to False
    - An empty string for example bool("") is equal to False
    - Trival values are converted  to True
-   - One (1) is equal to True 
+   - One (1) is equal to True
+
+DateTime Module 
+    - datetime is a module in the Python standard library that provides classes for working with dates and times.
+    - datetime: This is a class that represents a single point in time with the date. 
+    -date: This is a class that represents a date (year, month, and day) without a time.
+    -time: This is a class that represents a time (hour, minute, second, and microsecond) without a date.
+    -timedelta: This is a class that represents a duration, or the difference between two dates or times.
+    -tzinfo: This is an abstract base class for time zone information objects.
+    -timezone: This is a class that represents a fixed-offset time zone.
 
 
