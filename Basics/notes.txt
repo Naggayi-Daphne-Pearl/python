@@ -29,5 +29,12 @@ Sets
     - Each value in a set is called an element
     - a set is an unordered collection of unique elements. 
     -Sets are often used to store and manipulate collections of data that do not have a specific order or need to be unique.
-    
+
+Lists 
+    - A list is an ordered collection of items that can be of any type, including other lists. 
+    - Lists are often used to store and manipulate collections of data that have a specific order or need to be accessed by their position in the list.
+    - To create a list in Python, you can use the [] operator or the list() function with a comma-separated list of elements
+    - Lists can contain duplicate values
+    - Lists allow for many data types
+     
 
