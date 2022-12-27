@@ -49,7 +49,10 @@ Tuples
     - A tuple is an immutable sequence type that is used to store a collection of elements
     - Tuples are similar to lists, but they are fixed in size and cannot be modified once created.
     - To create a tuple in Python, you can use the () operator or the tuple() function with a comma-separated list of elements while a list we use [] operator. 
-    
 
-     
+Logging 
+    - Allows you to record  progress and problems
+    - Levels: Debug, INFO, WARN, ERROR, Critical
 
+Fibonacci sequence
+    - 
