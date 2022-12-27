@@ -55,4 +55,7 @@ Logging
     - Levels: Debug, INFO, WARN, ERROR, Critical
 
 Fibonacci sequence
-    - 
+    - Memoization is a technique that is used to speed up the execution of a function by storing the results of previous function calls and returning the stored result instead of computing the result again. 
+    - This can be particularly useful for functions that perform a lot of calculations or have a recursive structure, as it can significantly reduce the time and resources required to execute the function.
+    - To implement memoization in a function, you can use a dictionary or another data structure to store the results of previous function calls.
+    - Then, when the function is called, you can check if the result has already been computed and stored in the dictionary. If it has, you can return the stored result; if it hasn't, you can compute the result and store it in the dictionary for future use.
