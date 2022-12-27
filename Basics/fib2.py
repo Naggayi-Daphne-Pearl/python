@@ -22,5 +22,5 @@ for n in range(1, 101):
     print(n, ":", fibonacci(n))
 
 # Error message for value not equal to int 
-print(fibonacci(-1))
+# print(fibonacci(-1))
 
