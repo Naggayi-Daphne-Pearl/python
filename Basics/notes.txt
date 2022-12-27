@@ -45,5 +45,11 @@ Dictionaries
     - You can also use the get() method to access the values of a dictionary by their keys. This method returns the value for the specified key, or a default value if the key is not found in the dictionary.
     - Values can have many data types 
 
+Tuples 
+    - A tuple is an immutable sequence type that is used to store a collection of elements
+    - Tuples are similar to lists, but they are fixed in size and cannot be modified once created.
+    - To create a tuple in Python, you can use the () operator or the tuple() function with a comma-separated list of elements while a list we use [] operator. 
+    
+
      
 
