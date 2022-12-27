@@ -4,6 +4,13 @@ from functools import lru_cache
 
 @lru_cache(maxsize = 200)
 def fibonacci(n):
+    #Error message for non integers
+    if type(n) != int:
+        raise TypeError("n must be an integer")
+    if n < 0:
+        raise ValueError("n must be greater than 0")
+
+    #Computing the nth term
     if n == 1:
         return 1
     elif n == 2:
@@ -13,4 +20,7 @@ def fibonacci(n):
         
 for n in range(1, 101):
     print(n, ":", fibonacci(n))
+
+# Error message for value not equal to int 
+print(fibonacci(-1))
 
