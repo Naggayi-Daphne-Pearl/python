@@ -20,4 +20,14 @@ DateTime Module
     -tzinfo: This is an abstract base class for time zone information objects.
     -timezone: This is a class that represents a fixed-offset time zone.
 
+Functions 
+    - Functions allow us to reuse code without repeating ourselves. 
+    - start with keyword 'def'
+    - call the function after definining it. 
+
+Sets 
+    - Each value in a set is called an element
+    - a set is an unordered collection of unique elements. 
+    -Sets are often used to store and manipulate collections of data that do not have a specific order or need to be unique.
+    
 
