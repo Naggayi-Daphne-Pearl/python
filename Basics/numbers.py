@@ -32,4 +32,15 @@ print(e)
 f = x / y 
 print(f)
 
+#Boleans
+h = x == y 
+print (h)
+print(type(h))
+
+# convert boolean to string
+str(h)
+print(h)
+
+
+
 

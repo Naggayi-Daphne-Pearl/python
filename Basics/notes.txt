@@ -1,0 +1,14 @@
+Arithmetic in Python 
+    Numbers: int, float, complex
+    Operators: + - * / %
+
+Booleans 
+   - Values: True, False
+   - Values are capitalized
+   - Used to compare values 
+   - Zero(0) is equal to False
+   - An empty string for example bool("") is equal to False
+   - Trival values are converted  to True
+   - One (1) is equal to True 
+
+
