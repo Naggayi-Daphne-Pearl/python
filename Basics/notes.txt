@@ -36,5 +36,14 @@ Lists
     - To create a list in Python, you can use the [] operator or the list() function with a comma-separated list of elements
     - Lists can contain duplicate values
     - Lists allow for many data types
+
+Dictionaries
+    - A dictionary is an unordered collection of key-value pairs.
+    - Dictionaries are often used to store and manipulate data that is organized by keys, which can be used to access the corresponding values.
+    - To create a dictionary in Python, you can use the {} operator with a comma-separated list of key-value pairs. 
+    - The keys and values can be of any type, and the keys must be unique within the dictionary
+    - You can also use the get() method to access the values of a dictionary by their keys. This method returns the value for the specified key, or a default value if the key is not found in the dictionary.
+    - Values can have many data types 
+
      
 
