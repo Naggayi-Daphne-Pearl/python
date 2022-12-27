@@ -1,7 +1,22 @@
 The most common ways to send data over the internet is using the XML and JSON
 
 1. XML 
-    - Tags represent the begin and end of elements. Name anything we want e.g <person><person>
-    -Has self closing tags
-    - Attributes: Keywords/value pairs on the opening tag of XML 
-    -Serialise/De-Serialise: Convert data in one program into a common format that can be stored and/or transmitted between systems
+        - Tags represent the begin and end of elements. Name anything we want e.g <person><person>
+        -Has self closing tags
+        - Attributes: Keywords/value pairs on the opening tag of XML 
+        -Serialise/De-Serialise: Convert data in one program into a common format that can be stored and/or transmitted between systems
+    XML Schema
+        -It is a language that decides if a cetarn XML document meets the standards 
+        -It describes the legal format of an XML document
+        - It is expressed in terms of constraints on the structure and content of the document
+        If a particular XML document meets the standards of the Schema, it is said to 'validate'
+
+2. Service Oriented Approach 
+        -Is system is composed of a collection of independent services that communicate with each other to achieve a larger goal.
+        -Each service is a self-contained unit that performs a specific task, and communicates with other services using a well-defined interface.
+        The main benefits of a service-oriented approach are:
+            -Reusability: Services can be reused in multiple contexts, making it easier to build complex systems using existing components.-Flexibility: Services can be added, modified, or replaced without affecting the overall system, allowing for more flexibility in adapting to changing requirements.
+            -Interoperability: Services can be developed and maintained independently, and can be implemented using different technologies, making it easier to integrate systems that were developed by different teams or organizations.
+        With a services oriented approach to developing web apps, it is located in spread across many computer systems connected via the internet or internal network.
+        
+        
