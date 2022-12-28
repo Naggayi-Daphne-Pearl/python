@@ -59,3 +59,11 @@ Fibonacci sequence
     - This can be particularly useful for functions that perform a lot of calculations or have a recursive structure, as it can significantly reduce the time and resources required to execute the function.
     - To implement memoization in a function, you can use a dictionary or another data structure to store the results of previous function calls.
     - Then, when the function is called, you can check if the result has already been computed and stored in the dictionary. If it has, you can return the stored result; if it hasn't, you can compute the result and store it in the dictionary for future use.
+
+CSV FILES
+    - CSV (Comma Separated Values) files are a simple and common way to store data in a tabular format, with each row representing a record and each column representing a field. 
+    - CSV files are often used to exchange data between different applications and systems, as they can be easily imported and exported by a wide range of software.
+    - Starts with A Header with the information about the values.
+    - Each row is separated by commas. Each row is a record. Represented by a string.
+    - Two commas in a row means data is missing 
+    - It is a text files
