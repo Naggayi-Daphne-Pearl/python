@@ -1,0 +1,63 @@
+SQL 
+    -SELECT - used to retrieve data from a database
+        - Example 
+            SELECT column1, column2, ...
+                FROM table_name;
+        - You can use the 'WHERE' command to retrieve data of records of a certain criteria e.g 
+            SELECT * 
+            FROM customers
+            WHERE email = 'john@example.com';
+        - Structure of SELECT command 
+            SELECT colum1, column2,...
+            FROM table_name
+            WHERE condition AND condition
+            ORDER BY (ASC | DESC)
+        - The SELECT command can order retrieve records in a ascending order using ORDER BY command e.g
+            SELECT *
+            FROM customers
+            ORDER BY name ASC;
+    - INSERT - used to insert data into a database
+        - Inserting values in the columm
+            INSERT INTO table_name (column1, column2, ...)
+                VALUES (value1, value2, ...);
+    -UPDATE - used to update data in a database
+        - Example 
+            UPDATE customers
+            SET address = '123 Main Street'
+            WHERE email = 'john@example.com'; #if the WHERE clause is not added the changes will apply to all the rows. 
+    -DELETE - used to delete data from rows not columns 
+        - Structure OF the DELETE command 
+            DELETE FROM table_name
+            WHERE condition(s) # if you dont add the condtion it will remove all the rows 
+
+    -CREATE - used to create a new database or table 
+        i.e 
+        To create Database 
+            - CREATE DATABASE database_name;
+        To create table 
+            - CREATE TABLE table_name (
+                id INT PRIMARY KEY,
+                name VARCHAR(255),
+                address VARCHAR(255)
+            );
+        Add the semi colon at the end to show the end of command. 
+
+    -ALTER - used to alter the structure of a database or table, such as adding or deleting columns
+        -Using the Alter command to add column to table 
+            ALTER TABLE table_name
+                ADD column_name datatype; i.e ADD email VARCHAR(255)
+        - Using Alter command to modify existing column 
+            ALTER TABLE table_name
+                ALTER COLUMN email CHAR(50); # Alter number of characters in the email
+        - Using Alter command to delete Column from table 
+            ALTER TABLE customers
+                DROP COLUMN email;
+
+    - DROP - used to delete a database or table 
+        -Example
+            DROP DATABASE database_name;
+            
+    -INDEX - used to create and retrieve data from an index, which is a data structure that improves the speed of data retrieval
+    - VIEW - used to create a virtual table based on the result-set of an SQL statement
+    - TRUNCATE - used to delete all data from a table, but unlike DELETE, it also resets the auto-increment counter of the table.
+    - JOIN - used to join a table
