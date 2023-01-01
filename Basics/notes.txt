@@ -67,3 +67,8 @@ CSV FILES
     - Each row is separated by commas. Each row is a record. Represented by a string.
     - Two commas in a row means data is missing 
     - It is a text files
+
+List Comprehesion 
+    -  It is used to create a list using a single line of code. 
+    - It consists of an expression followed by the 'for' clause, then zero or more 'for' or 'if' clauses. 
+    
