@@ -71,4 +71,13 @@ CSV FILES
 List Comprehesion 
     -  It is used to create a list using a single line of code. 
     - It consists of an expression followed by the 'for' clause, then zero or more 'for' or 'if' clauses. 
+
+Classes 
+    - Classes is a template for creating objects. It defines the structure and behaviour of an object. 
+    - defined class with the word 'class' 
+    - Do not capitalize name in the fields. use lowercase 
+    - classes are used to make objects 
+    - the __init__ method is a simple method called when an object is created.  It is used intialize the objects' attributes
+    - help() is used to get information about classes or its methods 
+
     
