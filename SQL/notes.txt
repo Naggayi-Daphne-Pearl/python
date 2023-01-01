@@ -60,4 +60,23 @@ SQL
     -INDEX - used to create and retrieve data from an index, which is a data structure that improves the speed of data retrieval
     - VIEW - used to create a virtual table based on the result-set of an SQL statement
     - TRUNCATE - used to delete all data from a table, but unlike DELETE, it also resets the auto-increment counter of the table.
+    
     - JOIN - used to join a table
+        - INNER JOIN, which returns only rows that match the join condition
+            SELECT * FROM table1 INNER JOIN table2
+                ON table1.id = table2.id
+        - OUTER JOIN, which returns all rows from both tables, including rows that do not match the join condition
+            SELECT * FROM table1 LEFT OUTER JOIN table2
+                ON table1.id = table2.id
+        - CROSS JOIN, which returns the Cartesian product of the two tables (i.e., every possible combination of rows from both tables)
+            SELECT * FROM table1 CROSS JOIN table2
+
+        
+
+    - FOREIGN KEY example 
+        CREATE TABLE orders (
+            id SERIAL PRIMARY KEY,
+            customer_id INTEGER REFERENCES customers (id),
+            product_id INTEGER REFERENCES products (id),
+            quantity INTEGER NOT NULL
+        );
