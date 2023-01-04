@@ -12,6 +12,7 @@ class Pet:
 """Class Cat and Dog have functions that are more specific and different from each other. 
 These are child classes """
 class Cat(Pet):
+    """Calling a super class to iniate the super class"""
     def __init__(self,name,age,color):
         super().__init__(name,age)
         self.color = color
