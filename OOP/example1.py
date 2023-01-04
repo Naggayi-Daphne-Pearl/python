@@ -35,6 +35,7 @@ s3 = Student("Naggayi", 26, 66)
 course = Course("Math", 2)
 course.add_student(s1)
 course.add_student(s2)
+course.add_student(s3)
 
 print(course.get_average_grade())
 
