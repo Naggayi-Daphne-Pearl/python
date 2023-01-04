@@ -21,7 +21,10 @@ class Course:
             return True 
         return False
     def get_average_grade (self):
-        pass
+        value = 0 
+        for student in self.students:
+            value += student.get_grade()
+        return value / len(self.students)
 
 
 # Intiante the students 
@@ -29,12 +32,11 @@ s1 = Student("Pearl", 23, 95)
 s2 = Student("Daphne", 25, 74)
 s3 = Student("Naggayi", 26, 66)
 
-course = Course("Math", 3)
+course = Course("Math", 2)
 course.add_student(s1)
 course.add_student(s2)
-course.add_student(s3)
 
-print(course.students[0].name)
+print(course.get_average_grade())
 
 
 
