@@ -1,7 +1,7 @@
 # Inheritance: 
 class Pet: 
-    """Inheritance method: Pet Class contains the functionality shared by the children classes
-    Pet Class is a parent class """
+    """Inheritance method: Used when classes have the same attributes and almost do the same thing 
+    Pet class is the super class that is a general class that defines the attributes shared by child classes """
     def __init__(self, name,age): 
         self.name = name
         self.age = age
@@ -32,6 +32,4 @@ p.show()
 c = Cat('Bill', 13, 'green')
 c.show()
 c.speak()
-
-
-
+help(Pet)
