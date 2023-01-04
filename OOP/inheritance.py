@@ -1,6 +1,6 @@
 # Inheritance: 
 class Pet: 
-    """Inheritance method: Used when classes have the same attributes and almost do the same thing 
+    """Inheritance method: Used when classes have the same variables and almost do the same thing 
     Pet class is the super class that is a general class that defines the attributes shared by child classes """
     def __init__(self, name,age): 
         self.name = name
