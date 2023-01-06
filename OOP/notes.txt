@@ -1,0 +1,16 @@
+Inheritance 
+    - 
+
+Class Methods 
+    - A class method is defined using the @classmethod decorator. 
+    - It takes the class itself as the first argument, which is usually called cls. 
+    - the argument cls is a convention that is used to refer to the class itself within a class method. It is short for "class".
+    - class methods are bound to the class and have access to the class itself
+
+Static methods 
+    - A static method, is defined using the @staticmethod decorator and does not have access to the class itself. 
+    - It is a method that is shared among all instances of the class and is called on the class itself, rather than on an instance of the class. 
+
+Static Method vs Class Methods
+    - You should use a class method when you need to access the class itself or any class-level state within the method. You should use a static method when you don't need to access the class itself or any class-level state within the method.
+

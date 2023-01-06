@@ -1,6 +1,6 @@
 # Static methods that are specific to an instance 
 class Math:
-    """"""
+    """Static methods are specfic to an instance"""
     @staticmethod
     def add5(x):
         return x +5
