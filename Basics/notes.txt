@@ -1,3 +1,8 @@
+Implicit and Explicit Conversions 
+    -Implicit conversion is where the interpreter helps us out and automatically converts one data type into another, without having to explicitly tell it to do so. 
+    like when adding an int and a float
+    - Explicit conversion is where we manually convert from one data type to another by calling the relevant function for the data type we want to convert to. 
+    like printing a string with a int. we can manually change the int with str(int)
 Arithmetic in Python 
     Numbers: int, float, complex
     Operators: + - * / %
