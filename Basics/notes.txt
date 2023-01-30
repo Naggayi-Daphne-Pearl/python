@@ -2,6 +2,14 @@ Arithmetic in Python
     Numbers: int, float, complex
     Operators: + - * / %
 
+Order of operations
+   -The order of operations are to be calculated from left to right in the following order: 
+     1.Parentheses ( ), { }, [ ]
+     2.Exponents xe   (x**e)
+     3.Multiplication * and Division /  
+     4.Addition + and Subtraction -    
+   -You might find the PEMDAS mnemonic device to be helpful in remembering the order.   
+
 Booleans 
    - Values: True, False
    - Values are capitalized
