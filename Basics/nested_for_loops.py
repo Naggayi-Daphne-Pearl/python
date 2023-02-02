@@ -6,3 +6,11 @@ for home_team in teams:
         if home_team != away_team:
             print(home_team + " vs " + away_team)
             
+ 
+'''
+Recursive function structure 
+def recursive_function(parameters):
+    if base_case_condition(parameters):
+        return base_case_value
+    recursive_function(modified_parameters)'''
+            
